@@ -52,8 +52,6 @@ install -d %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}/{Record,Renderer}
 
 install %{_pearname}-%{version}/*.php %{buildroot}%{_datadir}/pear/%{_class}
 install %{_pearname}-%{version}/%{_subclass}/*.php %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}
-install %{_pearname}-%{version}/%{_subclass}/Record/*.php %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}/Record
-install %{_pearname}-%{version}/%{_subclass}/Renderer/*.php %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}/Renderer
 
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m0644 package.xml %{buildroot}%{_datadir}/pear/packages/%{_pearname}.xml
@@ -82,9 +80,6 @@ rm -rf %{buildroot}
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/%{_subclass}/Docs
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/%{_class}/%{_subclass}
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
