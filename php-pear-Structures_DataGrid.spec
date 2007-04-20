@@ -7,7 +7,7 @@
 
 Summary:	%{_pearname} - create grid like structure based on a record set of data
 Name:		php-pear-%{_pearname}
-Version:	0.6.3
+Version:	0.8.3
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
