@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.8.3
-Release:	9
+Release:	10
 Summary:	Create grid like structure based on a record set of data
 License:	PHP License
 Group:		Development/PHP
