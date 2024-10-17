@@ -8,7 +8,7 @@ Release:	10
 Summary:	Create grid like structure based on a record set of data
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Structures_DataGrid/
+URL:		https://pear.php.net/package/Structures_DataGrid/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
